@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <CustomActionGroup Id="DeveloperToolboxPages"
+                     Title="Developer tools and settings"
+                     Location="Microsoft.SharePoint.Administration.Default"
+                     ImageUrl="/_layouts/images/centraladmin_configurationwizards_farmconfiguration_32x32.png">
+    <UrlAction Url="_admin/Hand.SharePoint.DeveloperToolbox/DeveloperDashboard.aspx" />
+
+  </CustomActionGroup>
+  <CustomAction Id="DeveloperDashboard"
+                GroupId="DeveloperToolboxPages"
+                Location="Microsoft.SharePoint.Administration.Default"
+                Sequence="50"
+                Title="Developer Dashboard settings">
+    <UrlAction Url="_admin/Hand.SharePoint.DeveloperToolbox/DeveloperDashboard.aspx"/>
+  </CustomAction>
+
+</Elements>
